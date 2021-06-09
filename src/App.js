@@ -139,7 +139,7 @@ function App() {
   return (
     <>
       <h1>Hello HardFork</h1>
-      <p>nb operation: {nbOperations}</p>
+      <p>nb operations: {nbOperations}</p>
       {nbOperations > 20 && (
         <>
           <h3 style={{ color: 'red' }}>
